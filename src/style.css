@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  background-image: url(https://i.pinimg.com/564x/9b/1d/22/9b1d227261a02b99393479b9e3fbb44a.jpg);
+}
+
+h1, h2 {
+  text-align: center;
+  color: white;
+}
+
+div {
+  margin: 10px;
+}
+
+.diamond-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.diamond-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.diamond-item img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.diamond-item img.enlarged {
+  width: 200px;
+  height: 200px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
